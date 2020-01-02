@@ -16,6 +16,13 @@ There is currently support for the following device types within Home Assistant:
 - [Sensor](#sensor)
 - [Switch](#switch)
 
+<div class='note'>
+
+This component will only be able to communicate with your Broadlink devices if those devices were set up in the older IHC or 	
+e-Control apps. Any Broadlink device set up using the newer Broadlink app will connect, but will not successfully authenticate. This will prevent any commands from working on it.
+
+</div>
+
 ## Remote
 
 The `broadlink` remote platform allows you to interact with Broadlink remote control devices.
